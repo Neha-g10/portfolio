@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+._container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+h2{
+  font-size: 40px;
+  line-height: 1.4rem;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#banner .nav-link{
+  color: #fff;
+}
+#banner .nav-link:hover{
+    color: rgb(222, 219, 219);
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+ul.navbar-nav { 
+  float:right;
+  text-align:center;
+}
+ul.navbar-nav li {
+    padding: 0 30px;
+}
+/* .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+} */
+.header{
+    background-color: #55a6a8;
+}
+.fixed_header {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 99999;
+  box-shadow: 0 10px 25px 0px rgb(157 98 43 / 22%);
+}
+   .splash {
+    background:url("images/markus-spiske-hvSr_CVecVI-unsplash.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #fff;
+      background-position: center bottom;
+      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  }
+  
+  .splash .container {
+    padding-top: 15vh; /* No JS fallback*/
+    padding-bottom: 10vh; /* No JS fallback*/
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    display: block;
+    max-height:250px;
+    max-width: 250px;
+    margin: 0 auto 1em;
+    width: 100%;
+    opacity: 0.85;
+  }
+  
+  .splash h1 {
+    font-size: 40px;
+    margin-bottom: .15em;
+    text-align: center;
+  }
+  
+  .splash .lead, .splash .continue {
+    display: inline-block;
+    text-align: center;
+  }
+  h1.intro-text
+  {
+    margin:0;
+    color:#fff;
+  }
+  .splash .lead {
+    font-size: 30px;
+    margin-bottom: 1em;
+  }
+  .navbar-inverse
+  {
+    border:none!important;
+  }
+  @keyframes blink
+    {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+    }
+          @-webkit-keyframes blink
+          {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+          @-moz-keyframes blink
+          {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+          @-ms-keyframes blink
+          {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+          @-o-keyframes blink
+          {
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+  /* code for animated blinking cursor */
+  #typed-cursor
+  {
+        opacity: 1;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 50;
+        -webkit-animation: blink 1s infinite;
+        -moz-animation: blink 1s infinite;
+        -ms-animation: blink 1s infinite;
+        -o-animation: blink 1s infinite;
+        animation: blink 1s infinite;
+  }
+  
+  .splash .continue {
+    font-size: 3em;
+    display:block;
+  }
+  
+  .splash .continue a {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height:40px;
+    font-size:30px;
+  }
+  .splash .continue a:hover {
+    background-color: rgba(255, 255, 255, .25);
+  }
+.about_sec{
+    background-color: #dff1ef;
+    padding: 70px 30px;
+}
+.about_sec .skill:hover{
+  background-color: #4b8788;
+}
+.skills_sec{
+    background-color: #ffffff;
+    padding: 70px 30px;
+}
+
+.skill{
+    display: inline-block;
+    /* background-color: #a8858f; */
+    background-color:  #55a6a8;
+    color: #fff;
+    line-height: 35px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 12px 20px;
+}
+
+.projects_section {
+  background-color: #dff1ef;
+  padding: 70px 30px;
+}
+.project_container{
+  display: flex;
+  flex-direction: row;
+
+}
+.project_card{
+  width: 33.33%;
+}
+.project_img {
+  height: 220px;
+}
+.projects_section a.btn.btn-primary {
+  background-color: #55a6a8;
+  border-color: #55a6a8;
+}
+.projects_section a.btn.btn-primary:hover{
+  background-color: #4b8788;
+  border-color: #4b8788;
+}
+.contact_secion{
+  padding: 70px 30px;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  ul.navbar-nav { 
+    float:none;
+    text-align:center;
+  }
+  .profile-image {
+    max-height: 200px;
+    max-width: 200px;
+}
+.splash h1 {
+  font-size: 30px;
+}
+.splash .lead {
+  font-size: 25px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 1.4rem;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+h2.pb-5 {
+  padding-bottom: 20px !important;
+}
+.about_sec, .skills_sec, .projects_section, .contact_secion {
+  padding: 50px 25px;
+}
+.skill {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  line-height: 20px;
+}
+
+}
+@media screen and (max-width: 600px) {
+  .project_container {
+    flex-direction: column;
+  }
+  .project_card {
+    width: 97%;
+    margin-bottom: 30px;
+  }
+}
